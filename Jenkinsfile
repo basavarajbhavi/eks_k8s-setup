@@ -19,7 +19,7 @@ pipeline {
     stages {
                stage('Git CheckOut'){
                steps {
-                     git 'https://github.com/vikash-kumar01/terraform-eks-cluster_deployment.git'
+                     git ''
                 }
             }
  
